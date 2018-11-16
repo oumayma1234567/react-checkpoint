@@ -1,0 +1,113 @@
+
+.header-1{
+  display:flex;
+  justify-content: space-around;
+  
+ }
+ .logo-docplanner{
+    width: 268px;
+    height: 40px;
+ }
+ .menu {
+ 
+ display: flex;
+ padding:10px 10px  10px 10px;
+ margin-left:500px;
+ }
+ .liste {  
+  list-style-type: none;
+  height: 20px;
+  font-size: 20px;
+ }
+ .docplanner{
+   color: #ababab;
+   height: 20px;
+   font-size: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ .docplanner:hover{
+   color: #00b39b;
+ }
+ div a {
+   text-decoration: none;;
+   display: inline-block;
+ }
+ ul{
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+ }
+ ul li{
+   display: inline-block;
+ }
+ 
+ ul li :hover ul{
+   display: block;
+ }
+ ul li ul{
+ position:absolute;
+ width: 150px;
+ display: none;
+ }
+ ul li ul li{
+   background: #555;display: block;
+ }
+ .about{
+ color: #00b39b;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ 
+ .career{
+   color:#ababab;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+ }
+ .career:hover{
+   color: #00b39b;
+ } 
+ .container{
+   text-align: center;
+  margin: 30px 100px 30px 100px;
+  padding: 0px 20px 0px 20px;
+  }
+  .logo-main{
+    width: 80px;
+      height: auto;
+  }
+  .container h1 {
+    font-size:30px;
+     color: #00b39b;
+      margin: 1em 0;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-weight: 250;
+     letter-spacing: .3px;
+ }
+
+.container-1 {
+  display: flex;
+  justify-content:space-around;
+  padding: 10px 30px 10px 10px;
+  text-align: left;
+	margin-top: 50px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #747474;
+  padding-left: 130px;
+  padding-right: 150px;
+  font-weight:400;
+  font-size: 18px;
+}
+.footer-p{
+	border-top: 1px solid #eef2f2;
+    font-size: 15px;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+}
+.footer-lien{
+	color: #3d83df;
+}
+
+
